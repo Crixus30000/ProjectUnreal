@@ -35,15 +35,16 @@ ajout de ce que l'on veut.
 
 Contrôle Du personnage :
 
-->Deplacement uniquement sourie clic droit clic gauche
+->Deplacement uniquement sourie click droit click gauche
 
 ->competences :
 	(sur target)
-	-> clic Gauche attack monocible
-	->clic droit attack zone 
+	-> click Gauche attack monocible
+	->click droit attack zone 
+	-> "I" ouvrir fermer inventaire
 	-> "A" boule de feux dans la direction du curseur
 	-> "z" invocation(une IA allié)
-	->"Action loot" clic droit
+	->"Action loot" click droit ou click gauche
 
 IA allié :
 	->cible : si le joueur passe la sourie sur un ennemi

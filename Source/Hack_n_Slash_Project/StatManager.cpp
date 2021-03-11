@@ -103,7 +103,6 @@ void UStatManager::UpdateAllStat()
 	RegenMana = CharacterRef->Head->RegenMana + CharacterRef->Shoulder->RegenMana + CharacterRef->jewels->RegenMana + CharacterRef->Torso->RegenMana + CharacterRef->Legs->RegenMana + CharacterRef->Feet->RegenMana + CharacterRef->RightHand->RegenMana + CharacterRef->LeftHand->RegenMana + CharacterRef->Hands->RegenMana + CharacterRef->Cuffs->RegenMana+ CharacterStat->RegenMana;
 	
 	float PercentSpeed = ((float)(CharacterRef->Head->Speed + CharacterRef->Shoulder->Speed + CharacterRef->jewels->Speed + CharacterRef->Torso->Speed + CharacterRef->Legs->Speed + CharacterRef->Feet->Speed + CharacterRef->RightHand->Speed + CharacterRef->LeftHand->Speed + CharacterRef->Hands->Speed + CharacterRef->Cuffs->Speed)/100 * CharacterStat->Speed);//+ CharacterStat->Speed;
-	GEngine->AddOnScreenDebugMessage(-1,3,FColor::Red, FString::SanitizeFloat(PercentSpeed));
 		Speed =(int)PercentSpeed + CharacterStat->Speed;
 }
 	
